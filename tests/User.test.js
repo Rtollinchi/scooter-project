@@ -25,7 +25,6 @@ describe("User property tests", () => {
   // test age
 });
 
-// test login
 test("Should login a user", () => {
   const user = new User("Martha", "crewnash", 71);
 

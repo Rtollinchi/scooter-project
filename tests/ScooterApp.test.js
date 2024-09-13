@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const User = require('../src/User')
 const ScooterApp = require('../src/ScooterApp')
 

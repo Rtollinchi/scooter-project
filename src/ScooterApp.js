@@ -1,7 +1,16 @@
-// require the User and Scooter classes - see where they can be used in ScooterApp.js
+/* eslint-disable */
+
+const User = require("./User");
+const Scooter = require("./Scooter");
 
 class ScooterApp {
-  // ScooterApp code here
+  constructor() {
+    this.stations = {
+      Dumbo: [],
+      "Brooklyn Bridge": [],
+      Williamsburg: [],
+    };
+    this.registeredUsers = {};
+  }
 }
-
-module.exports = ScooterApp
+module.exports = ScooterApp;
