@@ -40,12 +40,4 @@ class ScooterApp {
   }
 }
 
-const scooter = new ScooterApp()
-
-scooter.registerUser('Crew', 'Monsterjam', 22);
-
-scooter.loginUser('Crew', 'Monsterjam');
-
-console.log(scooter.registeredUsers['Crew'])
-console.log(this.registeredUsers)
 module.exports = ScooterApp;
