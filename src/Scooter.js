@@ -16,12 +16,12 @@ class Scooter {
         this.station = null;
         this.user = user;
       } else {
-        throw new Error('Scooter is already rented');
+        throw new Error("Scooter is already rented");
       }
     } else if (this.charge <= 20) {
-      throw new Error('Scooter needs to charge');
+      throw new Error("Scooter needs to charge");
     } else {
-      throw new Error('Scooter needs repair');
+      throw new Error("Scooter needs repair");
     }
   }
 }
